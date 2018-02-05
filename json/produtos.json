@@ -1,0 +1,149 @@
+{
+
+  "produtos":[
+      {
+          "id": 1,
+          "tipo": "tv",
+          "nome": "Fácil HD",
+          "descricao": "Lorem ipsum dolor sit amet",
+          "exibir": 1,
+          "ordem": 1,
+          "adesao": 10000,
+          "taxaInstalacao": 50,
+          "canais": 4,
+          "listaCanais": [
+              {
+                  "categoria": "Abertos",
+                  "descricao": "Canal aberto de variedades abrangente voltado para toda \u00e0 fam\u00edlia.",
+                  "id": 465,
+                  "imagem": "http://www.netcombo.com.br/cs/Satellite/NET/media/logorecord.png",
+                  "nome": "Record"
+              },
+              {
+                  "categoria": "Filmes",
+                  "descricao": "O canal mais famoso do mundo, que exibe filmes ganhadores de \r\nOscar e campe\u00f5es de bilheteria.",
+                  "id": 437,
+                  "imagem": "http://www.netcombo.com.br/cs/Satellite/NET/media/logohbo.png",
+                  "nome": "HBO"
+              },
+              {
+                  "categoria": "Esportes",
+                  "descricao": "S\u00e3o 24h de programa\u00e7\u00e3o esportiva, produzida por uma \r\nequipe de profissionais brasileiros. Cobertura de grandes eventos \r\ncomo a Copa do Mundo, Olimp\u00edadas e Jogos Pan-Americanos, al\u00e9m \r\ndos campeonatos Espanhol, Italiano, Ingl\u00eas e Alem\u00e3o.",
+                  "id": 426,
+                  "imagem": "http://www.netcombo.com.br/cs/Satellite/NET/media/logoespnbrasil.jpg",
+                  "nome": "ESPN Brasil"
+              },
+              {
+                  "categoria": "Abertos",
+                  "descricao": "Canal com atividades da Assembl\u00e9ia Legislativa e da C\u00e2mara \r\nMunicipal local.\r\n",
+                  "id": 526,
+                  "imagem": "http://www.netcombo.com.br/imagens/logo/canal_legislativo-526_95x39.png",
+                  "nome": "Canal Legislativo"
+              }
+          ],
+          "preco": 3990,
+          "precoDe": 8490
+      },
+      {
+          "id": 2,
+          "tipo": "tv",
+          "nome": "Mais HD",
+          "descricao": "consectetur adipisicing elit",
+          "exibir": 1,
+          "ordem": 2,
+          "adesao": 0,
+          "taxaInstalacao": 15000,
+          "canais": 2,
+          "listaCanais": [
+              {
+                  "categoria": "Abertos",
+                  "descricao": "Canal aberto de variedades abrangente voltado para toda \u00e0 fam\u00edlia.",
+                  "id": 465,
+                  "imagem": "http://www.netcombo.com.br/cs/Satellite/NET/media/logorecord.png",
+                  "nome": "Record"
+              },
+              {
+                  "categoria": "Abertos",
+                  "descricao": "Canal com atividades da Assembl\u00e9ia Legislativa e da C\u00e2mara \r\nMunicipal local.\r\n",
+                  "id": 526,
+                  "imagem": "http://www.netcombo.com.br/imagens/logo/canal_legislativo-526_95x39.png",
+                  "nome": "Canal Legislativo"
+              }
+          ],
+          "preco": 4990,
+          "precoDe": 12990
+      },
+      {
+          "id": 3,
+          "tipo": "internet",
+          "descricao": "sed do eiusmod'tempor",
+          "nome": "30 Mega",
+          "exibir": 1,
+          "ordem": 4,
+          "adesao": 0,
+          "taxaInstalacao": 0,
+          "preco": 4990,
+          "precoDe": 11990
+      },
+      {
+          "id": 4,
+          "tipo": "internet",
+          "descricao": "incididunt ut labore et dolore",
+          "nome": "15 Mega",
+          "exibir": 0,
+          "ordem": 8,
+          "adesao": 0,
+          "taxaInstalacao": 0,
+          "preco": 1500,
+          "precoDe": 9990
+      },
+      {
+          "id": 5,
+          "tipo": "fixo",
+          "descricao": "magna aliqua. Ut enim",
+          "nome": "Mundo 21",
+          "exibir": 0,
+          "ordem": 7,
+          "adesao": 100,
+          "taxaInstalacao": 1000,
+          "preco": 1990,
+          "precoDe": 5990
+      },
+      {
+          "id": 6,
+          "tipo": "fixo",
+          "descricao": "ad minim & veniam",
+          "nome": "Brasil 21",
+          "exibir": 1,
+          "ordem": 6,
+          "adesao": 0,
+          "taxaInstalacao": 1,
+          "preco": 0,
+          "precoDe": 4000
+      },
+      {
+          "id": 7,
+          "tipo": "celular",
+          "nome": "2GB + 150 Min",
+          "descricao": "> quis nostrud exercitation",
+          "exibir": 1,
+          "ordem": 5,
+          "adesao": 0,
+          "taxaInstalacao": 0,
+          "preco": 7999,
+          "precoDe": 7999
+      },
+      {
+          "id": 8,
+          "tipo": "celular",
+          "nome": "Controle Turbo 2GB",
+          "descricao": "nisi ut aliquip ex ea",
+          "exibir": 0,
+          "ordem": 3,
+          "adesao": 0,
+          "taxaInstalacao": 0,
+          "preco": 6099,
+          "precoDe": 6099
+      }
+  ]
+}

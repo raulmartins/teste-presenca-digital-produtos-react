@@ -1,0 +1,44 @@
+{
+  "name": "teste-presenca-digital",
+  "version": "1.0.0",
+  "description": "> Webapp que te ajuda a contratar um dos produtos da AMX.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "watch": "npm run build -- --watch",
+    "build:pre": "react-scripts build",
+    "build:pkg": "cd build/; zip -r ../$npm_package_name-$npm_package_version.zip .",
+    "build": "npm run build:pre && npm run build:pkg",
+    "lint": "eslint src",
+    "prepush": "npm run lint",
+    "server": "json-server -p 4000  json/produtos.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://raulmartinslima@bitbucket.org/mind-net/teste-presenca-digital.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/mind-net/teste-presenca-digital#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015-native-modules": "^6.9.4",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "husky": "^0.14.3",
+    "json-server": "^0.12.1",
+    "react-scripts": "^1.1.0",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "babel-plugin-module-resolver": "^2.7.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-react": "^7.2.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "recompose": "^0.26.0",
+    "styled-components": "^3.1.5"
+  }
+}
