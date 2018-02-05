@@ -6,7 +6,7 @@ import ProdutoList from '../components/Produtos'
 const Routes = () => (
   <Router>
     <Fragment>
-      <Route exact path="/produtos" component={ProdutoList} />
+      <Route exact path="/" component={ProdutoList} />
     </Fragment>
   </Router>
 )
